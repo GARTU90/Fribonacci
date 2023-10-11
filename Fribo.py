@@ -12,9 +12,10 @@ b=1
 c=0
 print(a)
 print(b)
+fibo=[]
 for x in range(N+1):
 	c=a+b
 	b=a
 	a=c
-	print(c)
-
+	fibo.append(c)
+print(fibo)
