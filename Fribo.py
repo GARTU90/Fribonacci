@@ -10,9 +10,9 @@ N=10
 a=1
 b=1
 c=0
-print(a)
-print(b)
 fibo=[]
+fibo.append(1)
+fibo.append(1)
 for x in range(N+1):
 	c=a+b
 	b=a
